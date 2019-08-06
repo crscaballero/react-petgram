@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "name": "petgram-client-now",
+    "alias": [
+        "petgram--now-client"
+    ],
+    "builds": [
+        {
+            "use": "@now/static-build",
+            "src": "package.json"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*).js",
+            "dest": "/$1.js"
+        },
+        {
+            "src": "(.*).json",
+            "dest": "/$1.json"
+        },
+        {
+            "src": "/.*",
+            "dest": "/index.html"
+        }
+    ]
+}
