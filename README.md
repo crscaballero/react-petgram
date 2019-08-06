@@ -1,12 +1,13 @@
 # Course react-avanzado ⚛️
-
 Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
 
-Deployment
+### Deployment
 * Build<br />
     `npm run build`
 * Run<br />
-    `npm  run dev`
+    `npm run dev`
+* Deploy to Now<br />
+    `now`
 
 ### Dependecias Instaladas
 * Webpack<br />
@@ -21,5 +22,10 @@ Deployment
     `npm install @babel/core @babel/preset-env babel-loader --save-dev`<br />
     `npm install @babel/preset-react --save-dev`
 * Standard<br />
-    `npm install standard --save-dev`<br />
+    `npm install standard --save-dev`
+* Semistandard<br />
     `npm install semistandard --save-dev`
+* Styled-Components<br />
+    `npm install styled-components`
+* React-Icons<br />
+    `npm install react-icons`
