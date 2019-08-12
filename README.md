@@ -20,7 +20,9 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install react react-dom`
 * Babel<br />
     `npm install @babel/core @babel/preset-env babel-loader --save-dev`<br />
-    `npm install @babel/preset-react --save-dev`
+    `npm install @babel/preset-react --save-dev`<br />
+    `npm i @babel/plugin-syntax-dynamic-import -D` > this last one is not really necessar, after 4th july 2019 you can find inside of @babel/preset-react <br />
+    `npm i babel-eslint -D` > this one is due to before plugin installed
 * Standard<br />
     `npm install standard --save-dev`
 * Semistandard<br />
@@ -29,3 +31,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install styled-components`
 * React-Icons<br />
     `npm install react-icons`
+* Polyfill<br />
+    `npm install intersection-observer`
