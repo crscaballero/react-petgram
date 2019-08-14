@@ -33,3 +33,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install react-icons`
 * Polyfill<br />
     `npm install intersection-observer`
+* Apollo-Boost + GraphQl<br />
+    `npm install apollo-boost  react-apollo graphql`
