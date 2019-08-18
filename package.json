@@ -7,7 +7,7 @@
     "build": "webpack",
     "lint": "semistandard",
     "now-build": "npm run build",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -28,6 +28,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "apollo-boost": "^0.4.4",
     "graphql": "^14.4.2",
     "intersection-observer": "^0.7.0",
@@ -35,7 +36,6 @@
     "react-apollo": "^3.0.0",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
-    "react-router-dom": "^5.0.1",
     "styled-components": "^4.3.2"
   },
   "standard": {

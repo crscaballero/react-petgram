@@ -39,3 +39,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install intersection-observer`
 * Apollo-Boost + GraphQl<br />
     `npm install apollo-boost  react-apollo graphql`
+* Reach-Router<br />
+    `npm install @reach/router`
