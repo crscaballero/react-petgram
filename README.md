@@ -41,3 +41,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install apollo-boost  react-apollo graphql`
 * Reach-Router<br />
     `npm install @reach/router`
+* React-Helmet<br />
+    `npm install react-helmet`
