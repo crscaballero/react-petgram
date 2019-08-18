@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-//import { Link } from 'react-router-dom';
+//import { Link } from '@reach/router';
+
 import { Article, ImgWrapper, Img } from './styles';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { useNearScreen } from '../../hooks/useNearScreen';

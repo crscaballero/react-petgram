@@ -4,7 +4,7 @@ import { Router } from '@reach/router';
 import { GlobalStyle } from './styles/GlobalStyles';
 import { Logo } from './components/Logo';
 import { PhotoCardWithQuery } from './container/PhotoCardWithQuery';
-import { Home } from './pages/Home'
+import { Home } from './pages/Home';
 
 export const App = () => {
     const urlParams = new window.URLSearchParams(window.location.search);
