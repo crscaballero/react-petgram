@@ -7,6 +7,7 @@ export const Home = ({ id }) => {
     return (
         <Fragment>
             <ListOfCategories />
+            <br />
             <ListOfPhotoCards categoryId={id} />
         </Fragment>
     );

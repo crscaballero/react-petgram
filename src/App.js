@@ -2,12 +2,14 @@ import React from 'react';
 import { Router } from '@reach/router';
 
 import { GlobalStyle } from './styles/GlobalStyles';
+
+import { NavBar } from './components/NavBar';
+
 import { Logo } from './components/Logo';
 import { Home } from './pages/Home';
 import { Detail } from './pages/Detail';
 
 export const App = () => {
-
     return (
         <div>
             <GlobalStyle />
@@ -17,6 +19,7 @@ export const App = () => {
                 <Home path='/pet/:id' />
                 <Detail path='/detail/:detailId' />
             </Router>
+            <NavBar />
         </div>
     );
 };
