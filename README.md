@@ -45,3 +45,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install react-helmet`
 * Prop-Types<br />
     `npm install prop-types`
+* Manifest<br />
+    `npm install webpack-pwa-manifest -D`
