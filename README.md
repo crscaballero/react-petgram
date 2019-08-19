@@ -49,3 +49,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install webpack-pwa-manifest -D`
 * PWA<br />
     `npm install workbox-webpack-plugin -D`
+* Cypress<br />
+    `npm install cypress -D`

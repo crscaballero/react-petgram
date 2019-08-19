@@ -1,0 +1,6 @@
+{
+    "base_url": "https://petgram--now-client.now.sh/",
+    "chromeWebSecurity": false,
+    "viewportWidth": 500,
+    "viewportHeight": 800
+}
