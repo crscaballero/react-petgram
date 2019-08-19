@@ -43,3 +43,5 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
     `npm install @reach/router`
 * React-Helmet<br />
     `npm install react-helmet`
+* Prop-Types<br />
+    `npm install prop-types`
