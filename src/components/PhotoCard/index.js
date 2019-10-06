@@ -24,7 +24,6 @@ export const PhotoCard = ({ id, liked, likes = 0, src = DEFAULT_IMAGE }) => {
                             <Img src={src} />
                         </ImgWrapper>
                     </Link>
-
                     <ToggleLikeMutation>
                         {toggleLike => {
                             const handleFavClick = () => {
@@ -34,7 +33,6 @@ export const PhotoCard = ({ id, liked, likes = 0, src = DEFAULT_IMAGE }) => {
                                     }
                                 });
                             };
-
                             return (
                                 <FavButton
                                     liked={liked}

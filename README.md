@@ -1,5 +1,6 @@
 # Course react-avanzado ⚛️
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+This a simple project, just following the instruction of the course for learn. [React Advanced Course](https://platzi.com/cursos/react-avanzado/)
+![GIF](https://user-images.githubusercontent.com/48134692/66275566-ad9ee980-e83e-11e9-9a42-120dbbfb89fa.gif)
 
 * [Client]()
 * [Server](https://petgram--now-api.now.sh)
@@ -13,7 +14,7 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
 * Deploy to Now<br />
     `now`
 
-### Dependecias Instaladas
+### Dependecies Installed
 * Webpack<br />
     `npm install webpack webpack-cli --save-dev`
 * Html-webpack<br />
@@ -25,8 +26,8 @@ Repositorio con el código del [Curso Avanzado de React de Platzi](https://platz
 * Babel<br />
     `npm install @babel/core @babel/preset-env babel-loader --save-dev`<br />
     `npm install @babel/preset-react --save-dev`<br />
-    `npm i @babel/plugin-syntax-dynamic-import -D` > this last one is not really necessar, after 4th july 2019 you can find inside of @babel/preset-react <br />
-    `npm i babel-eslint -D` > this one is due to before plugin installed
+    `npm i @babel/plugin-syntax-dynamic-import -D` <br /> `(this last one is not really necessar, after 4th july 2019 you can find inside of @babel/preset-react)`<br />
+    `npm i babel-eslint -D` <br /> `(this one is due to a conflict)`
 * Standard<br />
     `npm install standard --save-dev`
 * Semistandard<br />
