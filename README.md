@@ -1,5 +1,5 @@
-# Course react-avanzado ⚛️
-This a simple project, just following the instruction of the course for learn. [React Advanced Course](https://platzi.com/cursos/react-avanzado/)
+# React-Petgram
+This a simple project, just following the instruction of the course for learn. [React Advanced Course](https://platzi.com/cursos/react-avanzado/)<br />
 ![GIF](https://user-images.githubusercontent.com/48134692/66275566-ad9ee980-e83e-11e9-9a42-120dbbfb89fa.gif)
 
 * [Client]()
